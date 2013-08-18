@@ -1,1 +1,9 @@
 Posts!!
+
+<section class='posts'>
+<% content_for :javascript do %>
+  <script type="text/json" id="bootstrap">
+    { "posts": <%== ActiveModel::ArraySerializer.new(@posts).to_json %> }
+  </script>
+<% end %>
+</section>

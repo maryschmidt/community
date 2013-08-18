@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 ruby '1.9.3'
 
-gem 'airbrake'
 gem 'bourbon'
 gem 'coffee-rails'
 gem 'delayed_job_active_record', '>= 4.0.0.beta2'
@@ -21,6 +20,11 @@ gem 'uglifier'
 gem 'unicorn'
 gem 'clearance'
 gem 'turbolinks'
+gem 'underscore-rails'
+gem 'js-routes'
+gem 'ejs'
+gem 'backbone-support'
+gem 'active_model_serializers'
 
 group :development do
   gem 'foreman'
