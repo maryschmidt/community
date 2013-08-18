@@ -20,6 +20,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'unicorn'
 gem 'clearance'
+gem 'turbolinks'
 
 group :development do
   gem 'foreman'
